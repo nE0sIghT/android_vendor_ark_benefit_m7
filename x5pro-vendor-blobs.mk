@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/bin/tertestclient:system/bin/tertestclient \
     vendor/doogee/x5pro/proprietary/system/bin/thermal:system/bin/thermal \
     vendor/doogee/x5pro/proprietary/system/bin/thermal_manager:system/bin/thermal_manager \
-    vendor/doogee/x5pro/proprietary/system/bin/thermald:system/bin/thermald \
     vendor/doogee/x5pro/proprietary/system/bin/tiny_mkswap:system/bin/tiny_mkswap \
     vendor/doogee/x5pro/proprietary/system/bin/tiny_swapoff:system/bin/tiny_swapoff \
     vendor/doogee/x5pro/proprietary/system/bin/tiny_swapon:system/bin/tiny_swapon \
@@ -171,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/libacdk.so:system/lib/libacdk.so \
     vendor/doogee/x5pro/proprietary/system/lib/libadpcm.so:system/lib/libadpcm.so \
     vendor/doogee/x5pro/proprietary/system/lib/libaed.so:system/lib/libaed.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libatciserv_jni.so:system/lib/libatciserv_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libatvctrlservice.so:system/lib/libatvctrlservice.so \
     vendor/doogee/x5pro/proprietary/system/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/doogee/x5pro/proprietary/system/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
@@ -243,14 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/doogee/x5pro/proprietary/system/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/doogee/x5pro/proprietary/system/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libem_gpio_jni.so:system/lib/libem_gpio_jni.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libem_modem_jni.so:system/lib/libem_modem_jni.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libextsys.so:system/lib/libextsys.so \
     vendor/doogee/x5pro/proprietary/system/lib/libextsys_jni.so:system/lib/libextsys_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libexttestmode.so:system/lib/libexttestmode.so \
@@ -258,7 +248,6 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
     vendor/doogee/x5pro/proprietary/system/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/doogee/x5pro/proprietary/system/lib/libfmcust.so:system/lib/libfmcust.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libfmmt6620.so:system/lib/libfmmt6620.so \
     vendor/doogee/x5pro/proprietary/system/lib/libfmmt6627.so:system/lib/libfmmt6627.so \
     vendor/doogee/x5pro/proprietary/system/lib/libfmmt6628.so:system/lib/libfmmt6628.so \
@@ -365,4 +354,41 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/doogee/x5pro/proprietary/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/doogee/x5pro/proprietary/system/xbin/BGW:system/xbin/BGW \
-    vendor/doogee/x5pro/proprietary/system/xbin/mnld:system/xbin/mnld
+    vendor/doogee/x5pro/proprietary/system/xbin/mnld:system/xbin/mnld \
+    vendor/doogee/x5pro/proprietary/system/framework/com.mediatek.effect.jar:system/framework/com.mediatek.effect.jar \
+    vendor/doogee/x5pro/proprietary/system/etc/permissions/com.mediatek.effect.xml:system/etc/permissions/com.mediatek.effect.xml \
+    vendor/doogee/x5pro/proprietary/system/framework/mediatek-common.jar:system/framework/mediatek-common.jar \
+    vendor/doogee/x5pro/proprietary/system/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar \
+    vendor/doogee/x5pro/proprietary/system/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar \
+    vendor/doogee/x5pro/proprietary/system/framework/mediatek-res/mediatek-res.apk:system/framework/mediatek-res/mediatek-res.apk \
+    vendor/doogee/x5pro/proprietary/system/app/AtciService/AtciService.apk:system/app/AtciService/AtciService.apk \
+    vendor/doogee/x5pro/proprietary/system/lib/libatciserv_jni.so:system/lib/libatciserv_jni.so \
+    vendor/doogee/x5pro/proprietary/system/app/AutoDialer/AutoDialer.apk:system/app/AutoDialer/AutoDialer.apk \
+    vendor/doogee/x5pro/proprietary/system/app/BSPTelephonyDevTool/BSPTelephonyDevTool.apk:system/app/BSPTelephonyDevTool/BSPTelephonyDevTool.apk \
+    vendor/doogee/x5pro/proprietary/system/app/BatteryWarning/BatteryWarning.apk:system/app/BatteryWarning/BatteryWarning.apk \
+    vendor/doogee/x5pro/proprietary/system/app/Bluetooth/Bluetooth.apk:system/app/Bluetooth/Bluetooth.apk \
+    vendor/doogee/x5pro/proprietary/system/app/Bluetooth/lib/arm/libbluetooth_jni.so:system/app/Bluetooth/lib/arm/libbluetooth_jni.so \
+    vendor/doogee/x5pro/proprietary/system/app/CalendarImporter/CalendarImporter.apk:system/app/CalendarImporter/CalendarImporter.apk \
+    vendor/doogee/x5pro/proprietary/system/app/DrmProvider/DrmProvider.apk:system/app/DrmProvider/DrmProvider.apk \
+    vendor/doogee/x5pro/proprietary/system/app/EngineerMode/EngineerMode.apk:system/app/EngineerMode/EngineerMode.apk \
+    vendor/doogee/x5pro/proprietary/system/bin/em_svr:system/bin/em_svr \
+    vendor/doogee/x5pro/proprietary/system/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libem_gpio_jni.so:system/lib/libem_gpio_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libem_modem_jni.so:system/lib/libem_modem_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
+    vendor/doogee/x5pro/proprietary/system/app/MTKThermalManager/MTKThermalManager.apk:system/app/MTKThermalManager/MTKThermalManager.apk \
+    vendor/doogee/x5pro/proprietary/system/bin/thermald:system/bin/thermald \
+    vendor/doogee/x5pro/proprietary/system/app/Omacp/Omacp.apk:system/app/Omacp/Omacp.apk \
+    vendor/doogee/x5pro/proprietary/system/app/SchedulePowerOnOff/SchedulePowerOnOff.apk:system/app/SchedulePowerOnOff/SchedulePowerOnOff.apk \
+    vendor/doogee/x5pro/proprietary/system/app/SmartcardService/SmartcardService.apk:system/app/SmartcardService/SmartcardService.apk \
+    vendor/doogee/x5pro/proprietary/system/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
+    vendor/doogee/x5pro/proprietary/system/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
+    vendor/doogee/x5pro/proprietary/system/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
+    vendor/doogee/x5pro/proprietary/system/priv-app/FmRadio/FmRadio.apk:system/priv-app/FmRadio/FmRadio.apk \
+    vendor/doogee/x5pro/proprietary/system/priv-app/FmRadio/lib/arm/libfmjni.so:system/priv-app/FmRadio/lib/arm/libfmjni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libfmjni.so:system/lib/libfmjni.so \
+    vendor/doogee/x5pro/proprietary/system/priv-app/Stk1/Stk1.apk:system/priv-app/Stk1/Stk1.apk
