@@ -367,7 +367,6 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/app/BSPTelephonyDevTool/BSPTelephonyDevTool.apk:system/app/BSPTelephonyDevTool/BSPTelephonyDevTool.apk \
     vendor/doogee/x5pro/proprietary/system/app/BatteryWarning/BatteryWarning.apk:system/app/BatteryWarning/BatteryWarning.apk \
     vendor/doogee/x5pro/proprietary/system/app/Bluetooth/Bluetooth.apk:system/app/Bluetooth/Bluetooth.apk \
-    vendor/doogee/x5pro/proprietary/system/app/Bluetooth/lib/arm/libbluetooth_jni.so:system/app/Bluetooth/lib/arm/libbluetooth_jni.so \
     vendor/doogee/x5pro/proprietary/system/app/CalendarImporter/CalendarImporter.apk:system/app/CalendarImporter/CalendarImporter.apk \
     vendor/doogee/x5pro/proprietary/system/app/DrmProvider/DrmProvider.apk:system/app/DrmProvider/DrmProvider.apk \
     vendor/doogee/x5pro/proprietary/system/app/EngineerMode/EngineerMode.apk:system/app/EngineerMode/EngineerMode.apk \
@@ -389,6 +388,5 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
     vendor/doogee/x5pro/proprietary/system/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
     vendor/doogee/x5pro/proprietary/system/priv-app/FmRadio/FmRadio.apk:system/priv-app/FmRadio/FmRadio.apk \
-    vendor/doogee/x5pro/proprietary/system/priv-app/FmRadio/lib/arm/libfmjni.so:system/priv-app/FmRadio/lib/arm/libfmjni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/doogee/x5pro/proprietary/system/priv-app/Stk1/Stk1.apk:system/priv-app/Stk1/Stk1.apk
