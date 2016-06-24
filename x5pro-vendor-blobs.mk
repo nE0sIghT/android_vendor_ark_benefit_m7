@@ -255,6 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/libged.so:system/lib/libged.so \
     vendor/doogee/x5pro/proprietary/system/lib/libgifEncoder_jni.so:system/lib/libgifEncoder_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
     vendor/doogee/x5pro/proprietary/system/lib/libgraphite2.so:system/lib/libgraphite2.so \
     vendor/doogee/x5pro/proprietary/system/lib/libgui_ext.so:system/lib/libgui_ext.so \
     vendor/doogee/x5pro/proprietary/system/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
