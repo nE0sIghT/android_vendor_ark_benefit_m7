@@ -99,7 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/bin/tertestclient:system/bin/tertestclient \
     vendor/doogee/x5pro/proprietary/system/bin/thermal:system/bin/thermal \
     vendor/doogee/x5pro/proprietary/system/bin/thermal_manager:system/bin/thermal_manager \
-    vendor/doogee/x5pro/proprietary/system/bin/tiny_fallocat:system/bin/tiny_fallocat \
+    vendor/doogee/x5pro/proprietary/system/bin/tiny_fallocate:system/bin/tiny_fallocate \
     vendor/doogee/x5pro/proprietary/system/bin/tiny_mkswap:system/bin/tiny_mkswap \
     vendor/doogee/x5pro/proprietary/system/bin/tiny_swapoff:system/bin/tiny_swapoff \
     vendor/doogee/x5pro/proprietary/system/bin/tiny_swapon:system/bin/tiny_swapon \
