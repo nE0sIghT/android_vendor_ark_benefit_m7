@@ -20,15 +20,22 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
     vendor/doogee/x5pro/proprietary/system/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
     vendor/doogee/x5pro/proprietary/system/bin/MtkCodecService:system/bin/MtkCodecService \
+    vendor/doogee/x5pro/proprietary/system/bin/aee:system/bin/aee \
+    vendor/doogee/x5pro/proprietary/system/bin/aee_archive:system/bin/aee_archive \
+    vendor/doogee/x5pro/proprietary/system/bin/aee_core_forwarder:system/bin/aee_core_forwarder \
+    vendor/doogee/x5pro/proprietary/system/bin/aee_dumpstate:system/bin/aee_dumpstate \
     vendor/doogee/x5pro/proprietary/system/bin/akmd09911:system/bin/akmd09911 \
     vendor/doogee/x5pro/proprietary/system/bin/akmd8963:system/bin/akmd8963 \
     vendor/doogee/x5pro/proprietary/system/bin/akmd8975:system/bin/akmd8975 \
     vendor/doogee/x5pro/proprietary/system/bin/ami304d:system/bin/ami304d \
     vendor/doogee/x5pro/proprietary/system/bin/atci_service:system/bin/atci_service \
     vendor/doogee/x5pro/proprietary/system/bin/atcid:system/bin/atcid \
+    vendor/doogee/x5pro/proprietary/system/lib/libwifitest.so:system/lib/libwifitest.so \
     vendor/doogee/x5pro/proprietary/system/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
     vendor/doogee/x5pro/proprietary/system/bin/autokd:system/bin/autokd \
     vendor/doogee/x5pro/proprietary/system/bin/badblocks:system/bin/badblocks \
+    vendor/doogee/x5pro/proprietary/system/bin/bmc156d:system/bin/bmc156d \
+    vendor/doogee/x5pro/proprietary/system/bin/bmx056d:system/bin/bmx056d \
     vendor/doogee/x5pro/proprietary/system/bin/bmm050d:system/bin/bmm050d \
     vendor/doogee/x5pro/proprietary/system/bin/boot_logo_updater:system/bin/boot_logo_updater \
     vendor/doogee/x5pro/proprietary/system/bin/btconfig:system/bin/btconfig \
@@ -106,6 +113,13 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/bin/wifi2agps:system/bin/wifi2agps \
     vendor/doogee/x5pro/proprietary/system/bin/wmt_loader:system/bin/wmt_loader \
     vendor/doogee/x5pro/proprietary/system/bin/xlog:system/bin/xlog \
+    vendor/doogee/x5pro/proprietary/system/etc/xlog-filter-default:system/etc/xlog-filter-default \
+    vendor/doogee/x5pro/proprietary/system/etc/xlog-filter-tags:system/etc/xlog-filter-tags \
+    vendor/doogee/x5pro/proprietary/system/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
+    vendor/doogee/x5pro/proprietary/system/etc/apns-conf.xml:system/etc/apns-conf.xml \
+    vendor/doogee/x5pro/proprietary/system/etc/audio_device.xml:system/etc/audio_device.xml \
+    vendor/doogee/x5pro/proprietary/system/etc/audio_effects.conf:system/etc/audio_effects.conf \
+    vendor/doogee/x5pro/proprietary/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/doogee/x5pro/proprietary/system/etc/bluetooth/auto_pair_blacklist.conf:system/etc/bluetooth/auto_pair_blacklist.conf \
     vendor/doogee/x5pro/proprietary/system/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/doogee/x5pro/proprietary/system/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
@@ -116,6 +130,7 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/etc/dhcpcd/dhcpcd-hooks/20-dns.conf:system/etc/dhcpcd/dhcpcd-hooks/20-dns.conf \
     vendor/doogee/x5pro/proprietary/system/etc/dhcpcd/dhcpcd-hooks/95-configured:system/etc/dhcpcd/dhcpcd-hooks/95-configured \
     vendor/doogee/x5pro/proprietary/system/etc/dhcpcd/dhcpcd-run-hooks:system/etc/dhcpcd/dhcpcd-run-hooks \
+    vendor/doogee/x5pro/proprietary/system/etc/ecc_list.xml:system/etc/ecc_list.xml \
     vendor/doogee/x5pro/proprietary/system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
     vendor/doogee/x5pro/proprietary/system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
     vendor/doogee/x5pro/proprietary/system/etc/firmware/WIFI_RAM_CODE_6735:system/etc/firmware/WIFI_RAM_CODE_6735 \
@@ -134,11 +149,18 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin \
     vendor/doogee/x5pro/proprietary/system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
     vendor/doogee/x5pro/proprietary/system/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
+    vendor/doogee/x5pro/proprietary/system/etc/iAmCdRom.iso:system/etc/iAmCdRom.iso \
     vendor/doogee/x5pro/proprietary/system/etc/mddb/BPLGUInfoCustomAppSrcP_MT6735_S00_MOLY_LR9_W1444_MD_LWTG_MP_V8_P39_1_lwg_n:system/etc/mddb/BPLGUInfoCustomAppSrcP_MT6735_S00_MOLY_LR9_W1444_MD_LWTG_MP_V8_P39_1_lwg_n \
     vendor/doogee/x5pro/proprietary/system/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.MP_HCT6735M_65C_L_MOLY_LR9_W1444_MD_LWTG_MP_V8_P39_2016_03_16_16_57_1_lwg_n:system/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.MP_HCT6735M_65C_L_MOLY_LR9_W1444_MD_LWTG_MP_V8_P39_2016_03_16_16_57_1_lwg_n \
+    vendor/doogee/x5pro/proprietary/system/etc/media_codecs.xml:system/etc/media_codecs.xml \
     vendor/doogee/x5pro/proprietary/system/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
     vendor/doogee/x5pro/proprietary/system/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
     vendor/doogee/x5pro/proprietary/system/etc/radvd/radvd.conf:system/etc/radvd/radvd.conf \
+    vendor/doogee/x5pro/proprietary/system/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
+    vendor/doogee/x5pro/proprietary/system/etc/spn-conf.xml:system/etc/spn-conf.xml \
+    vendor/doogee/x5pro/proprietary/system/etc/thermal/.ht120.mtc:system/etc/thermal/.ht120.mtc \
+    vendor/doogee/x5pro/proprietary/system/etc/thermal/thermal.conf:system/etc/thermal/thermal.conf \
+    vendor/doogee/x5pro/proprietary/system/etc/thermal/thermal.off.conf:system/etc/thermal/thermal.off.conf \
     vendor/doogee/x5pro/proprietary/system/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/doogee/x5pro/proprietary/system/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/doogee/x5pro/proprietary/system/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
@@ -163,6 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/libJniAtvService.so:system/lib/libJniAtvService.so \
     vendor/doogee/x5pro/proprietary/system/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/doogee/x5pro/proprietary/system/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libMiraVision_jni.so:system/lib/libMiraVision_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
     vendor/doogee/x5pro/proprietary/system/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
     vendor/doogee/x5pro/proprietary/system/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
@@ -247,15 +270,25 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/doogee/x5pro/proprietary/system/lib/libccci_util.so:system/lib/libccci_util.so \
     vendor/doogee/x5pro/proprietary/system/lib/libcurl.so:system/lib/libcurl.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
-    vendor/doogee/x5pro/proprietary/system/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
     vendor/doogee/x5pro/proprietary/system/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/doogee/x5pro/proprietary/system/lib/libdcfdecoderjni.so:system/lib/libdcfdecoderjni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libdirect-coredump.so:system/lib/libdirect-coredump.so \
     vendor/doogee/x5pro/proprietary/system/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/doogee/x5pro/proprietary/system/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/doogee/x5pro/proprietary/system/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextadvanced_jni.so:system/lib/libextadvanced_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextbip.so:system/lib/libextbip.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextbip_jni.so:system/lib/libextbip_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextbpp.so:system/lib/libextbpp.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextbpp_jni.so:system/lib/libextbpp_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextdun_jni.so:system/lib/libextdun_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextem.so:system/lib/libextem.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextftp.so:system/lib/libextftp.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextftp_jni.so:system/lib/libextftp_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextmap.so:system/lib/libextmap.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextmap_jni.so:system/lib/libextmap_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextsimap.so:system/lib/libextsimap.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libextsimap_jni.so:system/lib/libextsimap_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libextsys.so:system/lib/libextsys.so \
     vendor/doogee/x5pro/proprietary/system/lib/libextsys_jni.so:system/lib/libextsys_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libexttestmode.so:system/lib/libexttestmode.so \
@@ -279,7 +312,9 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/libhotknot_vendor.so:system/lib/libhotknot_vendor.so \
     vendor/doogee/x5pro/proprietary/system/lib/libhwm.so:system/lib/libhwm.so \
     vendor/doogee/x5pro/proprietary/system/lib/libimageio.so:system/lib/libimageio.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
     vendor/doogee/x5pro/proprietary/system/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libimageio_plat_drv_FrmB.so:system/lib/libimageio_plat_drv_FrmB.so \
     vendor/doogee/x5pro/proprietary/system/lib/libion.so:system/lib/libion.so \
     vendor/doogee/x5pro/proprietary/system/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/doogee/x5pro/proprietary/system/lib/libja3m.so:system/lib/libja3m.so \
@@ -338,6 +373,7 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/doogee/x5pro/proprietary/system/lib/libssladp.so:system/lib/libssladp.so \
     vendor/doogee/x5pro/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libterservice.so:system/lib/libterservice.so \
     vendor/doogee/x5pro/proprietary/system/lib/libtimestretch.so:system/lib/libtimestretch.so \
     vendor/doogee/x5pro/proprietary/system/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/doogee/x5pro/proprietary/system/lib/libtinycompress.so:system/lib/libtinycompress.so \
@@ -376,9 +412,17 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/framework/com.mediatek.effect.jar:system/framework/com.mediatek.effect.jar \
     vendor/doogee/x5pro/proprietary/system/etc/permissions/com.mediatek.effect.xml:system/etc/permissions/com.mediatek.effect.xml \
     vendor/doogee/x5pro/proprietary/system/framework/mediatek-common.jar:system/framework/mediatek-common.jar \
-    vendor/doogee/x5pro/proprietary/system/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar \
     vendor/doogee/x5pro/proprietary/system/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar \
     vendor/doogee/x5pro/proprietary/system/framework/mediatek-res/mediatek-res.apk:system/framework/mediatek-res/mediatek-res.apk \
+    vendor/doogee/x5pro/proprietary/system/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar \
+    vendor/doogee/x5pro/proprietary/system/etc/NumberHeadWithIDToByte:system/etc/NumberHeadWithIDToByte \
+    vendor/doogee/x5pro/proprietary/system/etc/geocoding.db:system/etc/geocoding.db \
+    vendor/doogee/x5pro/proprietary/system/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
+    vendor/doogee/x5pro/proprietary/system/etc/resmonwhitelist.txt:system/etc/resmonwhitelist.txt \
+    vendor/doogee/x5pro/proprietary/system/framework/CustomPropInterface.jar:system/framework/CustomPropInterface.jar \
+    vendor/doogee/x5pro/proprietary/system/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
+    vendor/doogee/x5pro/proprietary/system/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
     vendor/doogee/x5pro/proprietary/system/app/AtciService/AtciService.apk:system/app/AtciService/AtciService.apk \
     vendor/doogee/x5pro/proprietary/system/lib/libatciserv_jni.so:system/lib/libatciserv_jni.so \
     vendor/doogee/x5pro/proprietary/system/app/AutoDialer/AutoDialer.apk:system/app/AutoDialer/AutoDialer.apk \
@@ -398,6 +442,7 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
+    vendor/doogee/x5pro/proprietary/system/app/HctTorch/HctTorch.apk:system/app/HctTorch/HctTorch.apk \
     vendor/doogee/x5pro/proprietary/system/app/MTKThermalManager/MTKThermalManager.apk:system/app/MTKThermalManager/MTKThermalManager.apk \
     vendor/doogee/x5pro/proprietary/system/bin/thermald:system/bin/thermald \
     vendor/doogee/x5pro/proprietary/system/app/Omacp/Omacp.apk:system/app/Omacp/Omacp.apk \
