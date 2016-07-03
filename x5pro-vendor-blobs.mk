@@ -119,9 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
     vendor/doogee/x5pro/proprietary/system/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
     vendor/doogee/x5pro/proprietary/system/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
-    vendor/doogee/x5pro/proprietary/system/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/doogee/x5pro/proprietary/system/etc/audio_device.xml:system/etc/audio_device.xml \
-    vendor/doogee/x5pro/proprietary/system/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/doogee/x5pro/proprietary/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/doogee/x5pro/proprietary/system/etc/bluetooth/auto_pair_blacklist.conf:system/etc/bluetooth/auto_pair_blacklist.conf \
     vendor/doogee/x5pro/proprietary/system/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
@@ -396,7 +394,6 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/doogee/x5pro/proprietary/system/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
     vendor/doogee/x5pro/proprietary/system/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
-    vendor/doogee/x5pro/proprietary/system/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     vendor/doogee/x5pro/proprietary/system/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
     vendor/doogee/x5pro/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/doogee/x5pro/proprietary/system/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
