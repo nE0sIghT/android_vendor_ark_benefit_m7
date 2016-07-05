@@ -406,38 +406,17 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/doogee/x5pro/proprietary/system/xbin/BGW:system/xbin/BGW \
     vendor/doogee/x5pro/proprietary/system/xbin/mnld:system/xbin/mnld \
-    vendor/doogee/x5pro/proprietary/system/framework/com.mediatek.effect.jar:system/framework/com.mediatek.effect.jar \
     vendor/doogee/x5pro/proprietary/system/etc/permissions/com.mediatek.effect.xml:system/etc/permissions/com.mediatek.effect.xml \
-    vendor/doogee/x5pro/proprietary/system/framework/mediatek-common.jar:system/framework/mediatek-common.jar \
-    vendor/doogee/x5pro/proprietary/system/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar \
     vendor/doogee/x5pro/proprietary/system/framework/mediatek-res/mediatek-res.apk:system/framework/mediatek-res/mediatek-res.apk \
-    vendor/doogee/x5pro/proprietary/system/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar \
     vendor/doogee/x5pro/proprietary/system/etc/NumberHeadWithIDToByte:system/etc/NumberHeadWithIDToByte \
     vendor/doogee/x5pro/proprietary/system/etc/geocoding.db:system/etc/geocoding.db \
     vendor/doogee/x5pro/proprietary/system/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
     vendor/doogee/x5pro/proprietary/system/etc/resmonwhitelist.txt:system/etc/resmonwhitelist.txt \
-    vendor/doogee/x5pro/proprietary/system/framework/CustomPropInterface.jar:system/framework/CustomPropInterface.jar \
     vendor/doogee/x5pro/proprietary/system/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/doogee/x5pro/proprietary/system/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
-    vendor/doogee/x5pro/proprietary/system/app/AtciService/AtciService.apk:system/app/AtciService/AtciService.apk \
-    vendor/doogee/x5pro/proprietary/system/app/AtciService/arm/AtciService.odex:system/app/AtciService/arm/AtciService.odex \
     vendor/doogee/x5pro/proprietary/system/lib/libatciserv_jni.so:system/lib/libatciserv_jni.so \
-    vendor/doogee/x5pro/proprietary/system/app/AutoDialer/AutoDialer.apk:system/app/AutoDialer/AutoDialer.apk \
-    vendor/doogee/x5pro/proprietary/system/app/AutoDialer/arm/AutoDialer.odex:system/app/AutoDialer/arm/AutoDialer.odex \
-    vendor/doogee/x5pro/proprietary/system/app/BSPTelephonyDevTool/BSPTelephonyDevTool.apk:system/app/BSPTelephonyDevTool/BSPTelephonyDevTool.apk \
-    vendor/doogee/x5pro/proprietary/system/app/BSPTelephonyDevTool/arm/BSPTelephonyDevTool.odex:system/app/BSPTelephonyDevTool/arm/BSPTelephonyDevTool.odex \
-    vendor/doogee/x5pro/proprietary/system/app/BatteryWarning/BatteryWarning.apk:system/app/BatteryWarning/BatteryWarning.apk \
-    vendor/doogee/x5pro/proprietary/system/app/BatteryWarning/arm/BatteryWarning.odex:system/app/BatteryWarning/arm/BatteryWarning.odex \
     vendor/doogee/x5pro/proprietary/system/bin/batterywarning:system/bin/batterywarning \
-    vendor/doogee/x5pro/proprietary/system/app/Bluetooth/Bluetooth.apk:system/app/Bluetooth/Bluetooth.apk \
-    vendor/doogee/x5pro/proprietary/system/app/Bluetooth/arm/Bluetooth.odex:system/app/Bluetooth/arm/Bluetooth.odex \
-    vendor/doogee/x5pro/proprietary/system/app/CalendarImporter/CalendarImporter.apk:system/app/CalendarImporter/CalendarImporter.apk \
-    vendor/doogee/x5pro/proprietary/system/app/CalendarImporter/arm/CalendarImporter.odex:system/app/CalendarImporter/arm/CalendarImporter.odex \
-    vendor/doogee/x5pro/proprietary/system/app/DrmProvider/DrmProvider.apk:system/app/DrmProvider/DrmProvider.apk \
-    vendor/doogee/x5pro/proprietary/system/app/DrmProvider/arm/DrmProvider.odex:system/app/DrmProvider/arm/DrmProvider.odex \
-    vendor/doogee/x5pro/proprietary/system/app/EngineerMode/EngineerMode.apk:system/app/EngineerMode/EngineerMode.apk \
-    vendor/doogee/x5pro/proprietary/system/app/EngineerMode/arm/EngineerMode.odex:system/app/EngineerMode/arm/EngineerMode.odex \
     vendor/doogee/x5pro/proprietary/system/bin/em_svr:system/bin/em_svr \
     vendor/doogee/x5pro/proprietary/system/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
@@ -447,21 +426,23 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5pro/proprietary/system/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
     vendor/doogee/x5pro/proprietary/system/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
-    vendor/doogee/x5pro/proprietary/system/app/HctTorch/HctTorch.apk:system/app/HctTorch/HctTorch.apk \
-    vendor/doogee/x5pro/proprietary/system/app/HctTorch/arm/HctTorch.odex:system/app/HctTorch/arm/HctTorch.odex \
-    vendor/doogee/x5pro/proprietary/system/app/MTKThermalManager/MTKThermalManager.apk:system/app/MTKThermalManager/MTKThermalManager.apk \
-    vendor/doogee/x5pro/proprietary/system/app/MTKThermalManager/arm/MTKThermalManager.odex:system/app/MTKThermalManager/arm/MTKThermalManager.odex \
     vendor/doogee/x5pro/proprietary/system/bin/thermald:system/bin/thermald \
-    vendor/doogee/x5pro/proprietary/system/app/Omacp/Omacp.apk:system/app/Omacp/Omacp.apk \
-    vendor/doogee/x5pro/proprietary/system/app/Omacp/arm/Omacp.odex:system/app/Omacp/arm/Omacp.odex \
-    vendor/doogee/x5pro/proprietary/system/app/SchedulePowerOnOff/SchedulePowerOnOff.apk:system/app/SchedulePowerOnOff/SchedulePowerOnOff.apk \
-    vendor/doogee/x5pro/proprietary/system/app/SchedulePowerOnOff/arm/SchedulePowerOnOff.odex:system/app/SchedulePowerOnOff/arm/SchedulePowerOnOff.odex \
-    vendor/doogee/x5pro/proprietary/system/app/SmartcardService/SmartcardService.apk:system/app/SmartcardService/SmartcardService.apk \
-    vendor/doogee/x5pro/proprietary/system/app/SmartcardService/arm/SmartcardService.odex:system/app/SmartcardService/arm/SmartcardService.odex \
     vendor/doogee/x5pro/proprietary/system/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/doogee/x5pro/proprietary/system/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
-    vendor/doogee/x5pro/proprietary/system/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
-    vendor/doogee/x5pro/proprietary/system/app/YGPS/arm/YGPS.odex:system/app/YGPS/arm/YGPS.odex \
-    vendor/doogee/x5pro/proprietary/system/priv-app/FmRadio/FmRadio.apk:system/priv-app/FmRadio/FmRadio.apk \
-    vendor/doogee/x5pro/proprietary/system/priv-app/FmRadio/arm/FmRadio.odex:system/priv-app/FmRadio/arm/FmRadio.odex \
     vendor/doogee/x5pro/proprietary/system/lib/libfmjni.so:system/lib/libfmjni.so
+PRODUCT_COPY_FILES += \
+    vendor/doogee/x5pro/proprietary/system/app/AtciService/AtciService.apk:system/app/AtciService/AtciService.apk \
+    vendor/doogee/x5pro/proprietary/system/app/AutoDialer/AutoDialer.apk:system/app/AutoDialer/AutoDialer.apk \
+    vendor/doogee/x5pro/proprietary/system/app/BSPTelephonyDevTool/BSPTelephonyDevTool.apk:system/app/BSPTelephonyDevTool/BSPTelephonyDevTool.apk \
+    vendor/doogee/x5pro/proprietary/system/app/BatteryWarning/BatteryWarning.apk:system/app/BatteryWarning/BatteryWarning.apk \
+    vendor/doogee/x5pro/proprietary/system/app/Bluetooth/Bluetooth.apk:system/app/Bluetooth/Bluetooth.apk \
+    vendor/doogee/x5pro/proprietary/system/app/CalendarImporter/CalendarImporter.apk:system/app/CalendarImporter/CalendarImporter.apk \
+    vendor/doogee/x5pro/proprietary/system/app/DrmProvider/DrmProvider.apk:system/app/DrmProvider/DrmProvider.apk \
+    vendor/doogee/x5pro/proprietary/system/app/EngineerMode/EngineerMode.apk:system/app/EngineerMode/EngineerMode.apk \
+    vendor/doogee/x5pro/proprietary/system/app/HctTorch/HctTorch.apk:system/app/HctTorch/HctTorch.apk \
+    vendor/doogee/x5pro/proprietary/system/app/MTKThermalManager/MTKThermalManager.apk:system/app/MTKThermalManager/MTKThermalManager.apk \
+    vendor/doogee/x5pro/proprietary/system/app/Omacp/Omacp.apk:system/app/Omacp/Omacp.apk \
+    vendor/doogee/x5pro/proprietary/system/app/SchedulePowerOnOff/SchedulePowerOnOff.apk:system/app/SchedulePowerOnOff/SchedulePowerOnOff.apk \
+    vendor/doogee/x5pro/proprietary/system/app/SmartcardService/SmartcardService.apk:system/app/SmartcardService/SmartcardService.apk \
+    vendor/doogee/x5pro/proprietary/system/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
+    vendor/doogee/x5pro/proprietary/system/priv-app/FmRadio/FmRadio.apk:system/priv-app/FmRadio/FmRadio.apk
