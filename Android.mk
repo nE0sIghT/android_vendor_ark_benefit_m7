@@ -19,7 +19,7 @@ $(LOCAL_MODULE) : $(SYMLINKS)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := com.mediatek.effect
+LOCAL_MODULE := com.mediatek.effect.jar
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT_JAVA_LIBRARIES)
 LOCAL_SRC_FILES := proprietary/system/framework/com.mediatek.effect.jar
@@ -27,7 +27,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := mediatek-common
+LOCAL_MODULE := mediatek-common.jar
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT_JAVA_LIBRARIES)
 LOCAL_SRC_FILES := proprietary/system/framework/mediatek-common.jar
@@ -35,7 +35,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := mediatek-telephony-common
+LOCAL_MODULE := mediatek-telephony-common.jar
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT_JAVA_LIBRARIES)
 LOCAL_SRC_FILES := proprietary/system/framework/mediatek-telephony-common.jar
@@ -43,7 +43,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := mediatek-framework
+LOCAL_MODULE := mediatek-framework.jar
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT_JAVA_LIBRARIES)
 LOCAL_SRC_FILES := proprietary/system/framework/mediatek-framework.jar
@@ -51,7 +51,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := CustomPropInterface
+LOCAL_MODULE := CustomPropInterface.jar
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT_JAVA_LIBRARIES)
 LOCAL_SRC_FILES := proprietary/system/framework/CustomPropInterface.jar
